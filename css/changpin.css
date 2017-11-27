@@ -224,8 +224,11 @@ img{
 }
 .center .bottom .right .goods .con .top_con a{
 	color: #333;
-	font-size: 16px;
+	font-size: 14px;
 	font-weight: bolder;
+}
+.center .bottom .right .goods .con .top_con i{
+	font-size: 12px;
 }
 .center .bottom .right .goods .con p{
 	font-size: 13px;

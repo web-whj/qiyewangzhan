@@ -129,7 +129,7 @@ img{
 	color: #333;
 }
 .center .bottom{
-	height: 358px;
+	overflow: hidden;
 	
 }
 .center .bottom .left{
@@ -183,7 +183,6 @@ img{
 }
 .center .bottom .right{
 	width: 851px;
-	height: 294px;
 	float: right;
 }
 .center .bottom .right .top{
@@ -196,11 +195,16 @@ img{
 	text-align: left;
 	margin-bottom: 10px;
 }
-.center .bottom .right .neirong{
-	padding: 0 20px 20px;
-	font-size: 14px;
+.center .bottom .right .neirong li a {
+	display: block;
+	height: 51px;
+	padding: 10px 15px;
+	border-bottom: 1px dashed #e5e5e5;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
 	color: #333;
-	border-bottom: 1px dotted #ddd;
+	font-size: 14px;
 }
 .center .bottom .right .sj{
 	color: #333;

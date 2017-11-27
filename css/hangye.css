@@ -14,7 +14,7 @@ img{
 .banner{
 	width: 1349px;
 	height: 359px;
-	background: url('../img/guanyu/3.jpg') center no-repeat;
+	background: url('../img/hangye/4.jpg') center no-repeat;
 	position: relative;
 	left: 0;
 	top: 0;
@@ -187,8 +187,11 @@ img{
 }
 .center .bottom .right .goods .con .top_con a{
 	color: #333;
-	font-size: 16px;
+	font-size: 14px;
 	font-weight: bolder;
+}
+.center .bottom .right .goods .con .top_con i{
+	font-size: 12px;
 }
 .center .bottom .right .goods .con p{
 	font-size: 13px;

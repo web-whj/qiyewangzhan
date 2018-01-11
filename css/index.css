@@ -14,17 +14,33 @@ img{
 .banner{
 	width: 1349px;
 	height: 851px;
-	background: url('../img/index/banner2.jpg') center no-repeat;
+	background: url('../img/index/banner1.jpg')center no-repeat ;
 	position: relative;
 	left: 0;
 	top: 0;
 }
-.banner .neikuan{
+.banner1{
+	width: 1349px;
+	height: 851px;
+	background: url('../img/index/banner2.jpg')center no-repeat ;
+	position: relative;
+	left: 0;
+	top: 0;
+}
+.banner2{
+	width: 1349px;
+	height: 851px;
+	background: url('../img/index/banner3.jpg')center no-repeat ;
+	position: relative;
+	left: 0;
+	top: 0;
+}
+.neikuan{
 	width: 1170px;
 	margin: 0 auto;
 	padding: 0 15px;
 }
-.banner .neikuan .top{
+.neikuan .top{
 	height: 88px;
 	padding: 10px 0;
 	display: flex;
@@ -128,7 +144,7 @@ img{
 	border-radius: 50%;
 	background: #999999;
 }
-.dianqu .dian:hover{
+.dianqu .d-frist{
 	background:#2E85C8;
 }
 .neikuan .bottom{

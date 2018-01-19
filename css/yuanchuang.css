@@ -115,7 +115,7 @@ a{
     margin: 0 5px;
 }
 .banner .ban_circular .banc_son:first-child{
-    margin-left: 640px;
+    margin-left: 49%;
 }
 .banner .ban_circular .banc_son:hover{
     background-color: #e1472f;
@@ -124,6 +124,7 @@ a{
     width: 100%;
     height: 36px;
     background-color: #333;
+    margin-bottom: 20px;
 }
 .dangqian .dangqian_center{
     width: 1030px;
@@ -158,52 +159,145 @@ a{
 }
 .content{
     width: 1030px;
-    height: 338px;
+    height: auto;
     margin: 0 auto;
+    overflow: hidden;
 }
-.content .con_neirong{
+.content .con_left{
+    width: 23.5%;
+    height: 308px;
+    float: left;
+}
+.content .con_left .conl_top{
     width: 100%;
-    height: 215px;
-    border: 1px solid #E0DDE0;
-    border-radius: 6px;
-    border-top: 0;
-    padding: 15px;
+    height: 97px;
+    margin-bottom: 20px;
+    background-color: #DF2640;
+}
+.content .con_left .conl_top .conlt_title,.content .con_left .conl_bottom .conlb_title{
+    width: 100%;
+    height: 42px;
+    border-bottom: 1px solid #ffffff;
+    font-size: 18px;
+    color: #ffffff;
+    font-family: "微软雅黑";
+    line-height: 43px;
+    text-align: center;
+}
+.content .con_left .conl_top a{
+    display: block;
+    width: 100%;
+    height: 54px;
+    font-size: 12px;
+    color: #ffffff;
+    line-height: 54px;
+    margin-left: 20px;
+    font-family: "微软雅黑";
+}
+.content .con_left .conl_bottom{
+    width: 100%;
+    height: 191px;
+    background-color: #DF2640;
+}
+.content .con_left .conl_bottom .conlb_content{
+    width: 100%;
+    height: 148px;
+    padding: 10px 15px;
     box-sizing: border-box;
 }
-.content .con_neirong .con_pic{
-    width: 400px;
-    height: 300px;
-    margin: 8px 15px 15px 0;
-    background-image: url("../img/guanyulogo.300");
-    background-size: 400px 300px;
-    background-repeat: no-repeat;
+.content .con_left .conl_bottom .conlb_content .conlbc_son{
+    width: 212px;
+    height: 32px;
+    line-height: 32px;
+    color: #ffffff;
+    font-size: 12px;
+    font-family: "微软雅黑";
+}
+.content .con_right{
+    width: 75%;
+    height: auto;
+    float: right;
+}
+.content .con_right .conr_black{
+    width: 100%;
+    height: 42px;
+}
+.content .con_right .conr_black .conrb_all{
+    width: 24px;
+    height: 30px;
+    padding: 0 10px;
+    background-color: #333333;
+    float: left;
+    margin-right: 4px;
+}
+.content .con_right .conr_black .conrb_all a,.content .con_right .conr_black .conrb_yuan a{
+    display: block;
+    width: 24px;
+    height: 30px;
+    color: #ffffff;
+    font-size: 12px;
+    font-family: "微软雅黑";
+    line-height: 30px;
+    text-align: center;
+}
+.content .con_right .conr_black .conrb_yuan a{
+    width: 48px;
+}
+.content .con_right .conr_black .conrb_yuan{
+    width: 48px;
+    height: 30px;
+    padding: 0 10px;
+    background-color: #333333;
     float: left;
 }
-.content .con_neirong p{
-    width: auto;
-    height: 25px;
+.content .con_right .conr_black .conrb_all:hover,.content .con_right .conr_black .conrb_yuan:hover{
+    background-color: #DF263F;
+}
+.content .con_right .conrb_fson{
+    width: 99.8%;
+    height: 88px;
+    border: 1px solid #CCCCCC;
+    margin-bottom: 15px;
+}
+.content .con_right .conrb_fson a{
+    display: block;
+    width: 100%;
+    height: 46px;
+    padding: 8px 15px;
+}
+.content .con_right .conrb_fson a h3{
+    width: 100%;
+    height: 15px;
+    margin: 10px 0;
+    font-size: 14px;
+    color: #DF263F;
+    font-family: "微软雅黑";
+    font-weight: normal;
+    /*border-bottom: 1px dashed #666;*/
+}
+.content .con_right .conrb_fson a h3 span{
     font-size: 12px;
     color: #333;
-    float: left;
-    font-family: "微软雅黑";
-    margin-top: 5px;
-    margin-left: 40px;
-}
-.content .con_neirong .wenben{
-    text-indent: 2em;
-    display: block;
     float: right;
-    width: 578px;
-    height: auto;
-    line-height: 28px;
-    font-size: 13px;
-    color: #666;
-    font-family: "微软雅黑";
+    margin-right: 30px;
 }
-
-.content .xiabai{
+.content .con_right .conrb_fson a .xuxian{
+    display: block;
     width: 100%;
-    height: 123px;
+    height: 10px;
+    padding-top: 10px;
+    border-top: 1px dashed #666;
+}
+.content .con_right .jilu{
+    width: 100%;
+    height: 17px;
+    padding: 10px 0;
+    font-size: 12px;
+    color: #333;
+    font-family: "微软雅黑";
+    text-align: center;
+    line-height: 17px;
+    margin-bottom: 27px;
 }
 .footers{
     width: 100%;
